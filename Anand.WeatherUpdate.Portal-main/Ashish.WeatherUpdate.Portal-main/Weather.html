@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+      <link rel="stylesheet" href="style.css">
+      <title>Live Weather Update</title>
+</head>
+<body>
+    
+
+    <div class="app-main">
+
+        <div class="searchInputBox">
+         <input type="text" id="input-box" class="input-box" placeholder="Enter City Name" autocomplete="off">
+         <div class="container text-center mt-2">
+            <button class="btn" id="submit" >Submit</button>
+        </div>
+
+        </div>
+
+         <div class="weather-body">
+          <div class="location-details">
+              <div class="city" id="city">Basti,IN</div>
+              <div class="date" id="date">10 June (Wednesday), 2021</div>
+          </div>
+          <div class="weather-status">
+              <div class="temp" id="temp">34&deg;C</div>
+              <div class="weather" id="weather">Weather</div>
+              <div class="speed" id="speed">speed</div>
+              <div class="min-max" id="min-max">32&deg;C min<br> 34&deg;C max</div>
+              
+              <div class="sunrise-sunset" id="sunrise-sunset">sunrise: sunset: </div>
+              <div class="img"></div>
+          </div>
+         </div>
+
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

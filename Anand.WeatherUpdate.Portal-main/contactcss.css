@@ -1,0 +1,11 @@
+body{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image:url('images/thankyou.jpg');
+    background-size: cover;
+}
